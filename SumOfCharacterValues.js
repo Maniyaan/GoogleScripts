@@ -36,6 +36,18 @@ function getSum(textval) {
   ad["z"] = 7;
   ad[" "] = 0
   
+  ad["1"] = 1;
+  ad["2"] = 2;
+  ad["3"] = 3;
+  ad["4"] = 4;
+  ad["5"] = 5;
+  
+  ad["6"] = 6;
+  ad["7"] = 7;
+  ad["8"] = 8;
+  ad["9"] = 9;
+  ad["0"] = 0;
+  
   var sum = 0;
   for (i = 0; i < textval.length; i++) {
     sum += ad[textval[i].toLowerCase()];
